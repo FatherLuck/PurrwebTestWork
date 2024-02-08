@@ -1,0 +1,51 @@
+.fourth-component {
+    background: var(--primary-01-color);
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    gap: 100px;
+
+    @media (max-width: 768px) {
+        padding: 40px 16px;
+        flex-direction: column;
+        gap: 40px;
+    }
+}
+
+.fourth-component-card {
+    display: flex;
+    flex-direction: column;
+
+    @media (max-width: 768px) {
+        align-items: center;
+        gap: 20px;
+        flex-direction: unset;
+    }
+}
+
+.fourth-component-card-text,
+.fourth-component-card-title {
+    color: var(--grayscale-07-color);
+}
+
+.fourth-component-card-text {
+    font-size: var(--size-24);
+    line-height: 28.8px;
+    font-weight: 600;
+
+    @media (max-width: 768px) {
+        font-size: var(--size-20);
+        line-height: 25.2px;
+    }
+}
+
+.fourth-component-card-title {
+    line-height: 67.84px;
+    font-size: var(--size-64);
+    font-weight: 700;
+
+    @media (max-width: 768px) {
+        line-height: 42.4px;
+        font-size: var(--size-40);
+    }
+}

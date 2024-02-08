@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/css/root.css">
+    <link rel="stylesheet" href="/css/ui.css">
+    <link rel="stylesheet" href="/css/modal.css">
+    <link rel="stylesheet" href="/css/cookies.css">
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/firstComponent.css">
+    <link rel="stylesheet" href="/css/secondComponent.css">
+    <link rel="stylesheet" href="/css/thirdComponent.css">
+    <link rel="stylesheet" href="/css/fourthComponent.css">
+    <link rel="stylesheet" href="/css/fifthComponent.css">
+    <link rel="stylesheet" href="/css/sixthComponent.css">
+    <script defer src="/js/modal.js"></script>
+    <script defer src="/js/scroll.js"></script>
+    <script defer src="/js/cookies.js"></script>
+
+</head>
+
+<body class="body">
+    <header class="header">
+        <div id="header-top" class="header-button-container">
+            <button class="header-button-left">For Business</button>
+            <button class="header-button-right">For Customers</button>
+        </div>
+        <div id="header-scroll" class="header-bottom">
+            <div class="header-bottom-container">
+                <img src="images/logo.png" alt="logo">
+                <button onclick="openModal()" class="button-contact button-contact__header">Contact sales</button>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="first-component">
+
+            <div class="first-component-main-container">
+                <div class="first-component-main-text-container">
+                    <h1 class="first-component-main-text-title">
+                        Everyone is an Influencer
+                    </h1>
+                    <p class="first-component-main-text">
+                        Budss is a payments as a service and WOM engine dedicated to acquisition and retention of
+                        customers to your business.
+                    </p>
+                    <button onclick="openModal()" class="button-contact button-contact__first-component">Contact
+                        sales</button>
+                </div>
+                <img class=" first-component-main-container-image" src=" images/firstComponentImage.png" alt="">
+
+            </div>
+        </section>
+        <section class="second-component">
+            <h1 class="second-component-title">
+                About Budss
+            </h1>
+            <div class="second-component-main-component">
+                <img class="second-component-title-image" src="images/second-component/networkOfShoppersImage.png"
+                    alt="">
+                <div class="second-component-card">
+                    <img class="second-component-card-image" src="images/second-component/star.png" alt="">
+                    <h2 class="second-component-card-title">Contactless</h2>
+                    <p class="second-component-card-text">Budss uses near field communication (NFC) for making
+                        contactless payments.</p>
+                </div>
+                <div class="second-component-card">
+                    <img class="second-component-card-image" src="images/second-component/arrow.png" alt="arrow">
+                    <h2 class="second-component-card-title">Increased Buying Power</h2>
+                    <p class="second-component-card-text">Returning customers spend up to 3X more.</p>
+                </div>
+                <img class="second-component-card-image-pattern" src="images/second-component/aboutBudssImage.png"
+                    alt="">
+                <div class="second-component-card">
+                    <img class="second-component-card-image" src="images/second-component/analytics.png"
+                        alt="analytics">
+                    <h2 class="second-component-card-title">Analytics & Insights</h2>
+                    <p class="second-component-card-text">Gain a holistic view into your customers' buying behavior
+                        &
+                        purchasing patterns. </p>
+                </div>
+                <div class="second-component-card">
+                    <img class="second-component-card-image" src="images/second-component/protection.png"
+                        alt="protection">
+                    <h2 class="second-component-card-title">Fraud Protection</h2>
+                    <p class="second-component-card-text">Budss handles all payments with a fraud prevention
+                        algorithm to
+                        flag high risk purchases & a user set PIN code to keep payment info secure. </p>
+                </div>
+            </div>
+        </section>
+        <div class="third-component">
+            <img class="third-component-imagess" src="images/third-component/howBudssWorksGreen.png"
+                alt="howBudssWorks">
+            <img class="third-component-imagess-reverse" src="images/third-component/howBudssWorksPurple.png"
+                alt="howBudssWorks">
+            <img class="third-component-imagess" src="images/third-component/howBudssWorksOrange.png"
+                alt="howBudssWorks">
+            <img class="third-component-mobile" src="images/third-component/mobile.png" alt="mobile">
+        </div>
+        <section class="fourth-component">
+            <div class="fourth-component-card">
+                <h2 class="fourth-component-card-title">15%</h2>
+                <p class="fourth-component-card-text">Increase in Purchase Amount</p>
+            </div>
+            <div class="fourth-component-card">
+                <h2 class="fourth-component-card-title">30%</h2>
+                <p class="fourth-component-card-text">Growth in Annual Sales</p>
+            </div>
+            <div class="fourth-component-card">
+                <h2 class="fourth-component-card-title">10%</h2>
+                <p class="fourth-component-card-text">Growth in New Customers</p>
+            </div>
+        </section>
+        <div class="fifth-component">
+            <img class="fifth-component-title-desktop" src="images/fifth-component/desktop/fifthComponentTitleImage.png"
+                alt="">
+            <img class="fifth-component-title-mobile" src="images/fifth-component/mobile/fifthComponentTitleImage.png"
+                alt="">
+            <div class="fifth-component-card">
+                <img class="fifth-component-card-desktop" src="images/fifth-component/desktop/whyBudssMainImage.png"
+                    alt="">
+                <div class="fifth-component-card-mobile">
+                    <div class="fifth-component-card-text">
+                        <p class="fifth-component-card-title">Turn your customers into loyal influencers</p>
+                        <p class="fifth-component-card-description">Budss helps businesses harness the exponential
+                            power
+                            of loyal
+                            customers for acquisition and retention.</p>
+                    </div>
+                    <img style="  align-self: flex-start;" src="images/fifth-component/mobile/firstImage.png" alt="">
+                </div>
+                <div class="fifth-component-card-mobile">
+                    <div class="fifth-component-card-text">
+                        <p class="fifth-component-card-title">Harness the power of buying in bulk</p>
+                        <p class="fifth-component-card-description">Get at least 2X more sales with Budss Buying
+                            Groups.
+                            Your
+                            customer base will grow exponentially as your customers add their friends & family to
+                            your
+                            personalized group.</p>
+                    </div>
+                    <img style="align-self: normal;" src="images/fifth-component/mobile/secondImage.png" alt="">
+                </div>
+                <div class="fifth-component-card-mobile">
+                    <div class="fifth-component-card-text">
+                        <p class="fifth-component-card-title">Supercharge Loyalty With Instant Cash Back</p>
+                        <p class="fifth-component-card-description">Budss allows for shoppers to earn immediate cash
+                            back at their
+                            favorite stores.</p>
+                    </div>
+                    <img style="align-self: flex-end;" src="images/fifth-component/mobile/thirdImage.png" alt="">
+                </div>
+                <div class="fifth-component-card-mobile">
+                    <div class="fifth-component-card-text">
+                        <p class="fifth-component-card-title">Seasoned with AI and Gamification</p>
+                        <p class="fifth-component-card-description">AI programming creates a personalized customer
+                            journey,
+                            offering recommendations for their next purchase and optimizing rewards for after
+                            purchase.
+                        </p>
+                    </div>
+                    <img style="align-self: flex-end;
+                    margin-right: 55px;" src="images/fifth-component/mobile/fourthImage.png" alt="">
+                </div>
+            </div>
+        </div>
+        <section class="sixth-component">
+            <div class="sixth-component-button-container">
+                <h1 class="sixth-component-button-container-text">Let Your Business Grow</h1>
+                <button onclick="openModal()" class="button-contact">Contact sales</button>
+            </div>
+            <div class="sixth-component-social-network">
+                <div class="sixth-component-social-network-container">
+                    <h1 class="sixth-component-social-network-container-title">
+                        Your Brand Awareness Maters
+                    </h1>
+                    <p class="sixth-component-social-network-container-text">
+                        Budss is a husle free solution to put your brand on any digital surface including Instagram,
+                        Facebook, Twitter and TikTok
+                    </p>
+                </div>
+                <img class="sixth-component-social-network-image" src="images/socialNetworkIcon.png"
+                    alt="socialNetwork">
+            </div>
+            <div class="sixth-component-icon-container">
+                <img src="images/sixth-component/wooCommerce.png" alt="wooCommerce">
+                <img src="images/sixth-component/shopify.png" alt="shopify">
+                <img src="images/sixth-component/square.png" alt="square">
+                <img src="images/sixth-component/squarespace.png" alt="squarespace">
+                <img src="images/sixth-component/clover.png" alt="clover">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-top-component">
+            <img class="footer-logo" src="images/logo.png" alt="logo">
+            <div class="footer-button-container">
+                <button class="footer-button">For Business</button>
+                <button class="footer-button">For Customers</button>
+                <button class="footer-button-hidden">Privacy Policy</button>
+                <button class="footer-button-hidden">Terms Of Use - Seller</button>
+                <button class="footer-button-hidden">Terms of Use - Sellers & Customers</button>
+            </div>
+            <div class="footer-contact-container">
+                <button onclick="openModal()" class="button-contact button-contact__footer">Contact sales</button>
+                <div class="footer-container-icon">
+                    <img src="images/appStore.png" alt="app store"> <img src="images/googleplay.png" alt="google play">
+                </div>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+        <div class="footer-bottom-component">
+            <p class="footer-copyright-text">© Copyright 2023, All Rights Reserved by Budss</p>
+            <div class="footer-text-container">
+                <p class="footer-text">Privacy Policy</p>
+                <p class="footer-text">Terms Of Use - Seller</p>
+                <p class="footer-text">Terms of Use - Sellers & Customers</p>
+            </div>
+        </div>
+    </footer>
+    <div class="modal" id="modal">
+        <div class="modal-background" onclick="openModal()"></div>
+        <div class="modal-active">
+            <img class="modal-close-image" onclick="openModal()" src="images/closeIcon.png" alt="close">
+            <div class="modal-component-input-container">
+                <p class="modal-component-text-necessarily">Name</p>
+                <input value="" id="modal_input_name" class="modal-component-input" placeholder="Enter name">
+            </div>
+            <div class="modal-component-input-container">
+                <p class="modal-component-text-necessarily">Email</p>
+                <input id="modal_input_email" class="modal-component-input" placeholder="Enter email">
+            </div>
+            <div class="modal-component-input-container">
+                <p class="modal-component-text-necessarily">Phone number</p>
+                <input type="number" id="modal_input_phone" class="modal-component-input"
+                    placeholder=" + 1 900 000 00 00 ">
+            </div>
+            <div class="modal-component-input-container">
+                <p class="modal-component-text">Company</p>
+                <input class="modal-component-input" id="modal_input_company" placeholder="Enter company">
+            </div>
+            <div class="modal-component-input-container">
+                <p class="modal-component-text">Website/Store URL</p>
+                <input class="modal-component-input" id="modal_input_url" placeholder="Enter Website/Store URL">
+            </div>
+            <p class="modal-required-Text" id="required_Text"> Please fill in all required
+                fields
+            </p>
+            <p class="modal-privacy-policy-text">By submitting this form you are agreeing to Budss's <span
+                    class="modal-privacy-policy-text-span">Privacy
+                    Policy</span> and
+                <span class="modal-privacy-policy-text-span">Terms of
+                    Use</span>
+            </p>
+            <button class="button-contact button-contact__modal" onclick="sendContact()">Contact
+                sales</button>
+        </div>
+    </div>
+    <div id="cookies" class="cookies-background">
+        <div class="cookies-component">
+            <p class="cookies-text">
+                This website uses cookies to ensure you get the best experience on our website. They also allow us
+                to analyze user behavior in order to constantly improve the website for you.
+            </p>
+            <div class="cookies-botton-container">
+                <button class="cookies-button cookies-button-primary" onclick="closeCookiesComponent()">Accept</button>
+                <button class="cookies-button cookies-button-secondary"
+                    onclick="closeCookiesComponent()">Decline</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

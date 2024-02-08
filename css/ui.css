@@ -1,0 +1,27 @@
+.button-contact {
+    background: var(--primary-01-color);
+    color: var(--grayscale-07-color);
+    border-radius: 20px;
+    padding: 16px 30px;
+    font-size: var(--size-20);
+    cursor: pointer;
+    line-height: 25.2px;
+    border: 4px solid var(--primary-01-color);
+    background-image: linear-gradient(var(--grayscale-01-color), var(--grayscale-01-color));
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 0%;
+    transition: background-size .5s, color .5s;
+}
+
+.button-contact:hover {
+    background-size: 100% 100%;
+    color: var(--grayscale-07-color);
+    border: 4px solid var(--grayscale-01-color);
+}
+
+.button-contact:focus {
+    color: var(--grayscale-07-color);
+    background: var(--primary-01-color);
+    border: 4px solid var(--primary-03-color);
+}

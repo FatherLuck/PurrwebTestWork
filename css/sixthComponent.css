@@ -1,0 +1,104 @@
+.sixth-component {
+    background: var(--grayscale-07-color);
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 100px 0px;
+
+    @media (max-width: 1280px) {
+        padding: 40px 16px;
+        gap: 40px;
+    }
+}
+
+.sixth-component-button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    padding: 60px 0px;
+    border: 1px solid var(--grayscale-04-color);
+    border-radius: 50px;
+    margin: 0px 60px;
+
+    @media (max-width: 1280px) {
+        margin: 0px;
+        align-items: normal;
+        padding: 40px 20px;
+    }
+}
+
+.sixth-component-button-container-text {
+    font-size: var(--size-64);
+    font-weight: bold;
+    line-height: 67.84px;
+
+    @media (max-width: 1280px) {
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        font-size: var(--size-40);
+        line-height: 42.4px;
+    }
+}
+
+.sixth-component-social-network {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px 60px;
+    gap: 30px;
+
+    @media (max-width: 1280px) {
+        align-items: normal;
+        flex-direction: column;
+        margin: 0px;
+    }
+}
+
+.sixth-component-social-network-image {
+    @media (max-width: 1280px) {
+        margin-bottom: 50px;
+    }
+}
+
+.sixth-component-social-network-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.sixth-component-social-network-container-title {
+    font-size: var(--size-96);
+    font-weight: bold;
+    line-height: 101.76px;
+
+    @media (max-width: 768px) {
+        font-size: var(--size-40);
+        line-height: 42.4px;
+    }
+}
+
+.sixth-component-social-network-container-text {
+    line-height: 24px;
+    font-size: var(--size-20);
+    font-weight: 400;
+}
+
+.sixth-component-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+    @media (max-width: 1280px) {
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    @media (max-width: 520px) {
+        grid-template-columns: 1fr;
+    }
+}

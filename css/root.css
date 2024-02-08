@@ -1,0 +1,61 @@
+:root {
+    /* color: */
+    --grayscale-00-color: #000000;
+    --grayscale-01-color: #181818;
+    --grayscale-02-color: #444444;
+    --grayscale-03-color: #B9B9B9;
+    --grayscale-04-color: #CFCFCF;
+    --grayscale-05-color: #E4E4E4;
+    --grayscale-06-color: #F5F5F5;
+    --grayscale-07-color: #FFFFFF;
+    --grayscale-black-color: #070707;
+
+    --primary-00-color: #7B31D4;
+    --primary-01-color: #954CED;
+    --primary-02-color: #A64CED;
+    --primary-03-color: #BA8BF3;
+    --primary-04-color: #954CED33;
+
+    --secondary-00-color: #2FDBBC;
+    --secondary-02-color: #FFAA4C;
+    --secondary-03-color: #C1DB2F;
+
+    --additional-01-color: #7B31D4;
+    --additional-02-color: #7B31D4;
+
+    /* size: */
+    --size-14: 14px;
+    --size-16: 16px;
+    --size-20: 20px;
+    --size-32: 32px;
+    --size-40: 40px;
+    --size-48: 48px;
+    --size-64: 64px;
+    --size-96: 96px;
+}
+
+.body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    background: var(--grayscale-01-color);
+}
+
+h1,
+h2,
+h3,
+p,
+span,
+button {
+    font-family: 'Outfit', sans-serif;
+    margin: 0;
+}
